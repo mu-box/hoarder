@@ -16,8 +16,8 @@ import (
 	"github.com/jcelliott/lumber"
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/hoarder/api"
-	"github.com/nanopack/hoarder/backends"
+	"github.com/mu-box/hoarder/api"
+	"github.com/mu-box/hoarder/backends"
 )
 
 var (

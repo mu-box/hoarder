@@ -3,6 +3,6 @@ language: go
 go:
   - 1.6
 
-go_import_path: github.com/nanopack/hoarder
+go_import_path: github.com/mu-box/hoarder
 install: go get -t -v .
 script: go test -v ./...

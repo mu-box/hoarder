@@ -8,7 +8,7 @@ import (
 	"github.com/jcelliott/lumber"
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/hoarder/backends"
+	"github.com/mu-box/hoarder/backends"
 )
 
 // garbage collection will have this many seconds before consistancy

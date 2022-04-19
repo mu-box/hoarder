@@ -1,6 +1,6 @@
-[![hoarder logo](http://nano-assets.gopagoda.io/readme-headers/hoarder.png)](http://nanobox.io/open-source#hoarder)  
-[![Build Status](https://travis-ci.org/nanopack/hoarder.svg)](https://travis-ci.org/nanopack/hoarder)
-[![GoDoc](https://godoc.org/github.com/nanopack/hoarder?status.svg)](https://godoc.org/github.com/nanopack/hoarder)
+[![hoarder logo](http://assets.microbox.rocks/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)  
+[![Build Status](https://travis-ci.org/mu-box/hoarder.svg)](https://travis-ci.org/mu-box/hoarder)
+[![GoDoc](https://godoc.org/github.com/mu-box/hoarder?status.svg)](https://godoc.org/github.com/mu-box/hoarder)
 
 # Hoarder
 
@@ -123,4 +123,4 @@ $ hoarder update -k small-file -d 'eliftset'
 # 'small-file' created!
 ```
 
-[![opensource logo](http://nano-assets.gopagoda.io/open-src/nanobox-open-src.png)](http://nanobox.io/open-source)
+[![opensource logo](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

@@ -60,7 +60,7 @@ func Initialize() error {
 	// 	driver = &Postgres{Path: u.Path}
 	default:
 		return fmt.Errorf(`
-Unrecognized scheme '%s'. You can visit https://github.com/nanopack/hoarder and
+Unrecognized scheme '%s'. You can visit https://github.com/mu-box/hoarder and
 submit a pull request adding the scheme or you can submit an issue requesting its
 addition.
 `, u.Scheme)

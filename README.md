@@ -1,7 +1,6 @@
-# Hoarder
-
-[![Build Status](https://travis-ci.org/nanopack/hoarder.svg)](https://travis-ci.org/nanopack/hoarder)
-[![GoDoc](https://godoc.org/github.com/nanopack/hoarder?status.svg)](https://godoc.org/github.com/nanopack/hoarder)
+[![hoarder logo](http://assets.microbox.rocks/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)  
+[![Build Status](https://travis-ci.org/mu-box/hoarder.svg)](https://travis-ci.org/mu-box/hoarder)
+[![GoDoc](https://godoc.org/github.com/mu-box/hoarder?status.svg)](https://godoc.org/github.com/mu-box/hoarder)
 
 Hoarder is a simple, api-driven, storage system for storing anything for cloud based deployment services.
 
@@ -137,12 +136,12 @@ $ curl -k https://localhost:7410/blobs/test -d "some string"
 ```
 
 ##### JSON
-``` json
+```
 $ curl -k https://localhost:7410/blobs/test -d "{\"key\":\"value\"}"
 ```
 
 When it retrieves data it might look like the following:
-```
+```json
 {
 	"Name": "test",
 	"Size": 4,
@@ -154,6 +153,6 @@ When it retrieves data it might look like the following:
 
 ## Contributing
 
-Contributions to hoarder are welcome and encouraged. Hoarder is a [Nanobox](https://nanobox.io) project and contributions should follow the [Nanobox Contribution Process & Guidelines](https://docs.nanobox.io/contributing/).
+Contributions to hoarder are welcome and encouraged. Hoarder is a [Microbox](https://microbox.cloud) project and contributions should follow the [Microbox Contribution Process & Guidelines](https://docs.microbox.cloud/contributing/).
 
-[![open source](http://nano-assets.gopagoda.io/open-src/nanobox-open-src.png)](http://nanobox.io/open-source)
+[![open source](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

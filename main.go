@@ -35,7 +35,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/nanopack/hoarder/commands"
+	"github.com/mu-box/hoarder/commands"
 )
 
 func main() {

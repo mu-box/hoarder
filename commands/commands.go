@@ -14,9 +14,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/hoarder/api"
-	"github.com/nanopack/hoarder/backends"
-	"github.com/nanopack/hoarder/collector"
+	"github.com/mu-box/hoarder/api"
+	"github.com/mu-box/hoarder/backends"
+	"github.com/mu-box/hoarder/collector"
 )
 
 var (

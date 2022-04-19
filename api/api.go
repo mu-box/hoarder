@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/pat"
 	"github.com/jcelliott/lumber"
-	nanoauth "github.com/nanobox-io/golang-nanoauth"
+	microauth "github.com/mu-box/golang-microauth"
 	"github.com/spf13/viper"
 )
 
@@ -21,17 +21,17 @@ func Start() error {
 	}
 
 	// blocking...
-	nanoauth.DefaultAuth.Header = "X-AUTH-TOKEN"
+	microauth.DefaultAuth.Header = "X-AUTH-TOKEN"
 
 	// listen http (with auth support)
 	if uri.Scheme == "http" {
 		lumber.Info("Starting hoarder server at 'http://%s'...", uri.Host)
-		return nanoauth.ListenAndServe(uri.Host, viper.GetString("token"), routes(), "/ping")
+		return microauth.ListenAndServe(uri.Host, viper.GetString("token"), routes(), "/ping")
 	}
 
 	// listen https
 	lumber.Info("Starting secure hoarder server at 'https://%s'...", uri.Host)
-	return nanoauth.ListenAndServeTLS(uri.Host, viper.GetString("token"), routes(), "/ping")
+	return microauth.ListenAndServeTLS(uri.Host, viper.GetString("token"), routes(), "/ping")
 }
 
 // routes registers all api routes with the router

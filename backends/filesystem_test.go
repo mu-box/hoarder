@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/hoarder/backends"
+	"github.com/mu-box/hoarder/backends"
 )
 
 var (

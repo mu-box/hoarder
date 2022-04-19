@@ -9,7 +9,7 @@ import (
 
 	"github.com/jcelliott/lumber"
 
-	"github.com/nanopack/hoarder/backends"
+	"github.com/mu-box/hoarder/backends"
 )
 
 // get returns the data corresponding to specified key

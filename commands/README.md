@@ -1,5 +1,5 @@
-[![hoarder logo](http://assets.microbox.rocks/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)  
-[![Build Status](https://travis-ci.org/mu-box/hoarder.svg)](https://travis-ci.org/mu-box/hoarder)
+[![hoarder logo](http://microbox.rocks/assets/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)
+[![Build Status](https://github.com/mu-box/hoarder/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/hoarder/actions)
 [![GoDoc](https://godoc.org/github.com/mu-box/hoarder?status.svg)](https://godoc.org/github.com/mu-box/hoarder)
 
 # Hoarder
@@ -59,8 +59,8 @@ $ ./hoarder -c config.json
 
 ## Common Issues
 
-Error: `Failed to make request - Post https://localhost:7410/blobs/test: http: server gave HTTP response to HTTPS client` means that hoarder is started using `http`, but the client is configured to use `https` to talk to it.  
-Solution: Set `-H 'http://localhost:7410'` to use `http`  
+Error: `Failed to make request - Post https://localhost:7410/blobs/test: http: server gave HTTP response to HTTPS client` means that hoarder is started using `http`, but the client is configured to use `https` to talk to it.
+Solution: Set `-H 'http://localhost:7410'` to use `http`
 
 
 ## Client Usage Example:
@@ -123,4 +123,4 @@ $ hoarder update -k small-file -d 'eliftset'
 # 'small-file' created!
 ```
 
-[![opensource logo](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)
+[![opensource logo](http://microbox.rocks/assets/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

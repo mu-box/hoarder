@@ -1,5 +1,5 @@
-[![hoarder logo](http://assets.microbox.rocks/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)  
-[![Build Status](https://travis-ci.org/mu-box/hoarder.svg)](https://travis-ci.org/mu-box/hoarder)
+[![hoarder logo](http://microbox.rocks/assets/readme-headers/hoarder.png)](http://microbox.cloud/open-source#hoarder)
+[![Build Status](https://github.com/mu-box/hoarder/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/hoarder/actions)
 [![GoDoc](https://godoc.org/github.com/mu-box/hoarder?status.svg)](https://godoc.org/github.com/mu-box/hoarder)
 
 Hoarder is a simple, api-driven, storage system for storing anything for cloud based deployment services.
@@ -155,4 +155,4 @@ When it retrieves data it might look like the following:
 
 Contributions to hoarder are welcome and encouraged. Hoarder is a [Microbox](https://microbox.cloud) project and contributions should follow the [Microbox Contribution Process & Guidelines](https://docs.microbox.cloud/contributing/).
 
-[![open source](http://assets.microbox.rocks/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)
+[![open source](http://microbox.rocks/assets/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)
